@@ -18,16 +18,18 @@ public class Main {
     }
 
     public static Handler getFormHandler = ctx -> {
-        
+
         ctx.render("form.jte");
 
     };
 
     public static Handler postFormHandler = ctx -> {
 
-        String name = ctx.formParam("name");
+        String day = ctx.formParam("day");
+        String time = ctx.formParam("time");
+        String weather = ctx.formParam("weather");
 
-        ctx.result("Your name is " + name);
+        ctx.result("It is " + time + " on " + day + " and it is " + weather);
 
     };
 

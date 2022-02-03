@@ -9,11 +9,15 @@
 
     <form method="post">
 
-        <h1>Add your details</h1>
-        <label>Name</label>
-        <input type="text" name="name" placeholder="Michael" required value="">
+        <h1>Please fill out the form based on the current day's situation</h1>
+        <label>Day</label>
+        <input type="text" name="day" placeholder="Tuesday" required value="">
 
-        
+        <label>Time</label>
+        <input type="text" placeholder="10:00" required value="">
+
+        <label>Weather</label>
+        <input type="text" placeholder="Sunny" required value="">
 
         <input type="submit" value="Add">
     </form>
