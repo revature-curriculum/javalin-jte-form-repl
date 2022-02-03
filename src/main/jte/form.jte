@@ -7,7 +7,7 @@
 <body>
     <h2>Hello visitor!</h2>
 
-    <form method="post">
+    <form method="post" action="/form">
 
         <h1>Please fill out the form based on the current day's situation</h1>
         <label>Day</label>
