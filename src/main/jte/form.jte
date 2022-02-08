@@ -14,10 +14,10 @@
         <input type="text" name="day" placeholder="Tuesday" required value="">
 
         <label>Time</label>
-        <input type="text" placeholder="10:00" required value="">
+        <input type="text" name="time" placeholder="10:00" required value="">
 
         <label>Weather</label>
-        <input type="text" placeholder="Sunny" required value="">
+        <input type="text" name="weather" placeholder="Sunny" required value="">
 
         <input type="submit" value="Add">
     </form>
